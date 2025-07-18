@@ -1,0 +1,6 @@
+
+
+- **Create a `requirements.txt` file** to list your dependencies:
+  ```plaintext
+  Django>=3.0,<4.0
+  djangorestframework
