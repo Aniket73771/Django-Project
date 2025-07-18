@@ -34,22 +34,22 @@ UserManagement/
    cd UserManagement
 
 2. **Create a virtual environment**
-   ```
+   ```bash
    python -m venv venv
    source venv/bin/activate     # On Linux/macOS
    venv\Scripts\activate        # On Windows
 
 3. **Install dependencies**
-   ```
+   ```bash
    pip install -r requirements.txt
 
 4. **Run migrations**
-   ```
+   ```bash
    python manage.py makemigrations
    python manage.py migrate
 
 5. **Run the server**
-   ```
+   ```bash
    python manage.py runserver
 
 6. **Access API**
@@ -82,8 +82,8 @@ Management command: users/management/commands/grpc_call.py
 
 
 ▶️ **To Run the gRPC Request**
-
-`python manage.py grpc_call`
+   
+   python manage.py grpc_call
 
 🧾 **Sample Output**
 
